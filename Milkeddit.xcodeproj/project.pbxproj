@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		537D03EB1BDFF49E00C92A8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D03EA1BDFF49E00C92A8F /* AppDelegate.swift */; };
+		537D03ED1BDFF49E00C92A8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D03EC1BDFF49E00C92A8F /* ViewController.swift */; };
+		537D03F01BDFF49E00C92A8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537D03EE1BDFF49E00C92A8F /* Main.storyboard */; };
+		537D03F31BDFF49E00C92A8F /* Milkeddit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 537D03F11BDFF49E00C92A8F /* Milkeddit.xcdatamodeld */; };
+		537D03F51BDFF49E00C92A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537D03F41BDFF49E00C92A8F /* Assets.xcassets */; };
+		537D03F81BDFF49E00C92A8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537D03F61BDFF49E00C92A8F /* LaunchScreen.storyboard */; };
+		537D04031BDFF49E00C92A8F /* MilkedditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D04021BDFF49E00C92A8F /* MilkedditTests.swift */; };
+		537D040E1BDFF49E00C92A8F /* MilkedditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D040D1BDFF49E00C92A8F /* MilkedditUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		537D03FF1BDFF49E00C92A8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537D03DF1BDFF49E00C92A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537D03E61BDFF49E00C92A8F;
+			remoteInfo = Milkeddit;
+		};
+		537D040A1BDFF49E00C92A8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537D03DF1BDFF49E00C92A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537D03E61BDFF49E00C92A8F;
+			remoteInfo = Milkeddit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		537D03E71BDFF49E00C92A8F /* Milkeddit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milkeddit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		537D03EA1BDFF49E00C92A8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		537D03EC1BDFF49E00C92A8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		537D03EF1BDFF49E00C92A8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		537D03F21BDFF49E00C92A8F /* Milkeddit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Milkeddit.xcdatamodel; sourceTree = "<group>"; };
+		537D03F41BDFF49E00C92A8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		537D03F71BDFF49E00C92A8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		537D03F91BDFF49E00C92A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537D03FE1BDFF49E00C92A8F /* MilkedditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkedditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		537D04021BDFF49E00C92A8F /* MilkedditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkedditTests.swift; sourceTree = "<group>"; };
+		537D04041BDFF49E00C92A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537D04091BDFF49E00C92A8F /* MilkedditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkedditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		537D040D1BDFF49E00C92A8F /* MilkedditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkedditUITests.swift; sourceTree = "<group>"; };
+		537D040F1BDFF49E00C92A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		537D03E41BDFF49E00C92A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537D03FB1BDFF49E00C92A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537D04061BDFF49E00C92A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		537D03DE1BDFF49E00C92A8F = {
+			isa = PBXGroup;
+			children = (
+				537D03E91BDFF49E00C92A8F /* Milkeddit */,
+				537D04011BDFF49E00C92A8F /* MilkedditTests */,
+				537D040C1BDFF49E00C92A8F /* MilkedditUITests */,
+				537D03E81BDFF49E00C92A8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		537D03E81BDFF49E00C92A8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				537D03E71BDFF49E00C92A8F /* Milkeddit.app */,
+				537D03FE1BDFF49E00C92A8F /* MilkedditTests.xctest */,
+				537D04091BDFF49E00C92A8F /* MilkedditUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		537D03E91BDFF49E00C92A8F /* Milkeddit */ = {
+			isa = PBXGroup;
+			children = (
+				537D03EA1BDFF49E00C92A8F /* AppDelegate.swift */,
+				537D03EC1BDFF49E00C92A8F /* ViewController.swift */,
+				537D03EE1BDFF49E00C92A8F /* Main.storyboard */,
+				537D03F41BDFF49E00C92A8F /* Assets.xcassets */,
+				537D03F61BDFF49E00C92A8F /* LaunchScreen.storyboard */,
+				537D03F91BDFF49E00C92A8F /* Info.plist */,
+				537D03F11BDFF49E00C92A8F /* Milkeddit.xcdatamodeld */,
+			);
+			path = Milkeddit;
+			sourceTree = "<group>";
+		};
+		537D04011BDFF49E00C92A8F /* MilkedditTests */ = {
+			isa = PBXGroup;
+			children = (
+				537D04021BDFF49E00C92A8F /* MilkedditTests.swift */,
+				537D04041BDFF49E00C92A8F /* Info.plist */,
+			);
+			path = MilkedditTests;
+			sourceTree = "<group>";
+		};
+		537D040C1BDFF49E00C92A8F /* MilkedditUITests */ = {
+			isa = PBXGroup;
+			children = (
+				537D040D1BDFF49E00C92A8F /* MilkedditUITests.swift */,
+				537D040F1BDFF49E00C92A8F /* Info.plist */,
+			);
+			path = MilkedditUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		537D03E61BDFF49E00C92A8F /* Milkeddit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537D04121BDFF49E00C92A8F /* Build configuration list for PBXNativeTarget "Milkeddit" */;
+			buildPhases = (
+				537D03E31BDFF49E00C92A8F /* Sources */,
+				537D03E41BDFF49E00C92A8F /* Frameworks */,
+				537D03E51BDFF49E00C92A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Milkeddit;
+			productName = Milkeddit;
+			productReference = 537D03E71BDFF49E00C92A8F /* Milkeddit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		537D03FD1BDFF49E00C92A8F /* MilkedditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537D04151BDFF49E00C92A8F /* Build configuration list for PBXNativeTarget "MilkedditTests" */;
+			buildPhases = (
+				537D03FA1BDFF49E00C92A8F /* Sources */,
+				537D03FB1BDFF49E00C92A8F /* Frameworks */,
+				537D03FC1BDFF49E00C92A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				537D04001BDFF49E00C92A8F /* PBXTargetDependency */,
+			);
+			name = MilkedditTests;
+			productName = MilkedditTests;
+			productReference = 537D03FE1BDFF49E00C92A8F /* MilkedditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		537D04081BDFF49E00C92A8F /* MilkedditUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537D04181BDFF49E00C92A8F /* Build configuration list for PBXNativeTarget "MilkedditUITests" */;
+			buildPhases = (
+				537D04051BDFF49E00C92A8F /* Sources */,
+				537D04061BDFF49E00C92A8F /* Frameworks */,
+				537D04071BDFF49E00C92A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				537D040B1BDFF49E00C92A8F /* PBXTargetDependency */,
+			);
+			name = MilkedditUITests;
+			productName = MilkedditUITests;
+			productReference = 537D04091BDFF49E00C92A8F /* MilkedditUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		537D03DF1BDFF49E00C92A8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = shihab;
+				TargetAttributes = {
+					537D03E61BDFF49E00C92A8F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					537D03FD1BDFF49E00C92A8F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 537D03E61BDFF49E00C92A8F;
+					};
+					537D04081BDFF49E00C92A8F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 537D03E61BDFF49E00C92A8F;
+					};
+				};
+			};
+			buildConfigurationList = 537D03E21BDFF49E00C92A8F /* Build configuration list for PBXProject "Milkeddit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 537D03DE1BDFF49E00C92A8F;
+			productRefGroup = 537D03E81BDFF49E00C92A8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				537D03E61BDFF49E00C92A8F /* Milkeddit */,
+				537D03FD1BDFF49E00C92A8F /* MilkedditTests */,
+				537D04081BDFF49E00C92A8F /* MilkedditUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		537D03E51BDFF49E00C92A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537D03F81BDFF49E00C92A8F /* LaunchScreen.storyboard in Resources */,
+				537D03F51BDFF49E00C92A8F /* Assets.xcassets in Resources */,
+				537D03F01BDFF49E00C92A8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537D03FC1BDFF49E00C92A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537D04071BDFF49E00C92A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		537D03E31BDFF49E00C92A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537D03F31BDFF49E00C92A8F /* Milkeddit.xcdatamodeld in Sources */,
+				537D03ED1BDFF49E00C92A8F /* ViewController.swift in Sources */,
+				537D03EB1BDFF49E00C92A8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537D03FA1BDFF49E00C92A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537D04031BDFF49E00C92A8F /* MilkedditTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537D04051BDFF49E00C92A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537D040E1BDFF49E00C92A8F /* MilkedditUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		537D04001BDFF49E00C92A8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 537D03E61BDFF49E00C92A8F /* Milkeddit */;
+			targetProxy = 537D03FF1BDFF49E00C92A8F /* PBXContainerItemProxy */;
+		};
+		537D040B1BDFF49E00C92A8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 537D03E61BDFF49E00C92A8F /* Milkeddit */;
+			targetProxy = 537D040A1BDFF49E00C92A8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		537D03EE1BDFF49E00C92A8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537D03EF1BDFF49E00C92A8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		537D03F61BDFF49E00C92A8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537D03F71BDFF49E00C92A8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		537D04101BDFF49E00C92A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		537D04111BDFF49E00C92A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		537D04131BDFF49E00C92A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Milkeddit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shi.Milkeddit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		537D04141BDFF49E00C92A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Milkeddit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shi.Milkeddit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		537D04161BDFF49E00C92A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MilkedditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shi.MilkedditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milkeddit.app/Milkeddit";
+			};
+			name = Debug;
+		};
+		537D04171BDFF49E00C92A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MilkedditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shi.MilkedditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milkeddit.app/Milkeddit";
+			};
+			name = Release;
+		};
+		537D04191BDFF49E00C92A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MilkedditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shi.MilkedditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Milkeddit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		537D041A1BDFF49E00C92A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MilkedditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shi.MilkedditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Milkeddit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		537D03E21BDFF49E00C92A8F /* Build configuration list for PBXProject "Milkeddit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537D04101BDFF49E00C92A8F /* Debug */,
+				537D04111BDFF49E00C92A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537D04121BDFF49E00C92A8F /* Build configuration list for PBXNativeTarget "Milkeddit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537D04131BDFF49E00C92A8F /* Debug */,
+				537D04141BDFF49E00C92A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		537D04151BDFF49E00C92A8F /* Build configuration list for PBXNativeTarget "MilkedditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537D04161BDFF49E00C92A8F /* Debug */,
+				537D04171BDFF49E00C92A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		537D04181BDFF49E00C92A8F /* Build configuration list for PBXNativeTarget "MilkedditUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537D04191BDFF49E00C92A8F /* Debug */,
+				537D041A1BDFF49E00C92A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		537D03F11BDFF49E00C92A8F /* Milkeddit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				537D03F21BDFF49E00C92A8F /* Milkeddit.xcdatamodel */,
+			);
+			currentVersion = 537D03F21BDFF49E00C92A8F /* Milkeddit.xcdatamodel */;
+			path = Milkeddit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 537D03DF1BDFF49E00C92A8F /* Project object */;
+}
